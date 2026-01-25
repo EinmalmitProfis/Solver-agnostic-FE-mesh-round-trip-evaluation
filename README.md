@@ -1,4 +1,5 @@
 [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18367107.svg)](https://doi.org/10.5281/zenodo.18367107)
+[![DOI](https://zenodo.org/badge/1141791256.svg)](https://doi.org/10.5281/zenodo.18367552)
 
 # Solver-agnostic FE mesh round-trip evaluation (paper companion)
 
@@ -39,6 +40,6 @@ Instead, it provides an **auditable, solver-agnostic mesh-level evaluation pipel
 
 The repository alone is intentionally minimal; the **data & precomputed results** on Zenodo:
 
-- **Software (this repository, versioned)**: 
+- **Software (this repository, versioned)**:  `DOI 10.5281/zenodo.18367553`
 - **Dataset (public input decks + evaluation artefacts / results)**: DOI `10.5281/zenodo.18367107`
 
