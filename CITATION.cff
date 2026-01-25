@@ -9,7 +9,7 @@ authors:
   - family-names: "Tremmel"
     given-names: "Stephan"
     affiliation: "Engineering Design and CAD, University of Bayreuth, Germany"
-repository-code: "https://github.com/<ORG_OR_USER>/<REPO_NAME>"
+repository-code: "https://github.com/EinmalmitProfis/Solver-agnostic-FE-mesh-round-trip-evaluation"
 license: "Apache Licence 2.0"
 keywords:
   - finite element analysis
@@ -29,5 +29,5 @@ preferred-citation:
     - family-names: "Tremmel"
       given-names: "Stephan"
   year: 2026
-  journal: "To appear"
+  journal: ""
   doi: ""
