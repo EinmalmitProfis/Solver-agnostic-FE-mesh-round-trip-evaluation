@@ -32,7 +32,6 @@ Instead, it provides an **auditable, solver-agnostic mesh-level evaluation pipel
 
 - ❌ **No converter binary**: the deck-converter used in the paper (`Konverter.exe`) is **not** part of this public repo (IP/third‑party restrictions).
 - ❌ **No redistribution of proprietary benchmark models**: only the public subset is published on Zenodo.
-- ❌ **No solver-result equivalence claim**: the evaluation scope is **mesh-level structural data** (nodes/elements/sets/refpoint candidates and limited hierarchy metadata), not analysis semantics (materials, loads, BCs, contacts, etc.).
 
 ---
 
