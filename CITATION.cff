@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this evaluation pipeline, please cite the Zenodo record and the associated paper."
+title: "Round-trip evaluation pipeline for cross-solver FE mesh conversion"
+type: software
+authors:
+  - family-names: "Grohmann"
+    given-names: "Peter Robert"
+    affiliation: "Engineering Design and CAD, University of Bayreuth, Germany"
+  - family-names: "Tremmel"
+    given-names: "Stephan"
+    affiliation: "Engineering Design and CAD, University of Bayreuth, Germany"
+repository-code: "https://github.com/<ORG_OR_USER>/<REPO_NAME>"
+license: "Apache Licence 2.0"
+keywords:
+  - finite element analysis
+  - mesh interoperability
+  - format conversion
+  - round-trip validation
+  - Abaqus
+  - ANSYS
+  - NASTRAN
+  - Z88
+preferred-citation:
+  type: article
+  title: "Cross-solver finite-element mesh conversion via a neutral hierarchical intermediate representation: Abaqus, ANSYS Mechanical, MSC NASTRAN, and Z88"
+  authors:
+    - family-names: "Grohmann"
+      given-names: "Peter Robert"
+    - family-names: "Tremmel"
+      given-names: "Stephan"
+  year: 2026
+  journal: "To appear"
+  doi: ""
