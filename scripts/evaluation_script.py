@@ -1,8 +1,4 @@
 """
-Round-trip evaluation script (no CLI) implementing the solver-agnostic FE mesh
-conversion experiments from:
-
-  Peter Robert Grohmann, Stephan Tremmel
   "Cross-solver finite-element mesh conversion via a neutral hierarchical
   intermediate representation: Abaqus, ANSYS Mechanical, MSC NASTRAN, and Z88"
   Engineering Design and CAD, University of Bayreuth (preprint submitted to Elsevier).
