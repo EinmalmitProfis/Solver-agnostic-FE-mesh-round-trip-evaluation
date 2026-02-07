@@ -5,9 +5,10 @@ This repository contains the **evaluation implementation** accompanying the manu
 > **Cross-solver finite-element mesh conversion via a neutral hierarchical intermediate representation: Abaqus, ANSYS Mechanical, MSC NASTRAN, and Z88**  
 > Peter R. Grohmann, Stephan Tremmel (University of Bayreuth)  
 
-The purpose of this repo is **not** to provide a full deck converter.  
-Instead, it provides an **auditable, solver-agnostic mesh-level evaluation pipeline** (evaluation_script.py) that:
-1. canonicalizes FE models via a neutral pivot representation (Z88 → JSON), and
+It is intentionally **not a full converter**.  
+Instead, it provides an **auditable, solver-agnostic mesh-level evaluation pipeline** (`scripts/evaluation_script.py`) that:
+
+1. canonicalizes FE models via a neutral pivot representation (**Z88 → JSON**), and
 2. computes the paper’s fidelity metrics (geometry/connectivity/sets/refpoints + integrity diagnostics + runtimes).
 
 ---
@@ -17,7 +18,6 @@ Instead, it provides an **auditable, solver-agnostic mesh-level evaluation pipel
 ### A) Paper transparency & reproducibility
 - Inspect **exact metric definitions and configuration** used in the paper (constants in the `USER SETTINGS` block).
 - Verify the reported evaluation artefacts (CSV + diagnostics) from the accompanying Zenodo dataset.
-- Audit environment + configuration via the automatically written `run_metadata.json` snapshot.
 
 ### B) A reusable methodology for mesh-level FE model comparison
 - A reference implementation of **tolerance-aware coordinate hashing** and **order-/ID-invariant element signatures**.
